@@ -1,40 +1,33 @@
 package TutorialPackage2;
 import java.util.Scanner;
-public class Tutorial1 {
-	
-    public static void printName() {
-
-	for(int i = 0; i < 5; i++) {
-		System.out.println("hi");
+public class ceasarCipher {
+	public static String decrypt(String encryptedText, int shiftValue) {
+	  for (int i = 0;i = encryptedText;) {
+		  
+	  }
 	}
-    }
 	
-	
-	
-	public static void main(String[] args) {
-		int varNum1;
-		varNum1 = 10;
+	public static String encrypt(String plainText, int shiftValue) {
 		
-		int varNum2 = 25;
-		
-		int varNum3;
-		varNum3 = varNum1 + varNum2;
-		
-		System.out.print(varNum3);
-		System.out.println(varNum2);
-		System.out.println(varNum1);
-		
-		printName();
-if(varNum3<5)
-    System.out.println("less");
+	}
+	public static void main(String [] args) {
+		Scanner input = new Scanner(System.in);
+		String encryptedText = input.nextLine();
+		System.out.println("Please enter your name so it can be encrypted");
+		encrypt(encryptedText,5);
 	
-	String inData;	
-	Scanner scan = new Scanner(System.in);
-
-	System.out.println("Enter the data");
-	inData = scan.nextLine();
-	
-	System.out.println("You entered" + inData);
 	
 	}
+
 }
+
+
+//To do 
+// Name
+// Encryption
+// Decryption
+// Cleaning
+// U S B T
+//  String example = ("transistion");
+//example.charAt(4);
+//System.out.println(example.charAt(4));
