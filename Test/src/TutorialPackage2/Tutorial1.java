@@ -20,14 +20,3 @@ public class ceasarCipher {
 	}
 
 }
-
-
-//To do 
-// Name
-// Encryption
-// Decryption
-// Cleaning
-// U S B T
-//  String example = ("transistion");
-//example.charAt(4);
-//System.out.println(example.charAt(4));
